@@ -1,0 +1,102 @@
+<!-- System Card -->
+<div
+    class="group relative w-full max-w-[500px] h-[145px] overflow-hidden
+           rounded-[24px] border border-white/80
+           bg-gradient-to-br from-white via-[#fbfcff] to-[#f3f7ff]
+           shadow-[0_8px_25px_rgba(59,130,246,0.10)]
+           transition-all duration-300
+           hover:-translate-y-1
+           hover:shadow-[0_14px_32px_rgba(59,130,246,0.18)]"
+>
+
+    <!-- Background Glow -->
+    <div
+        class="pointer-events-none absolute
+               -left-8 -top-8 h-32 w-32
+               rounded-full bg-[#4F46E5]/[0.07]
+               blur-2xl">
+    </div>
+
+    <div
+        class="pointer-events-none absolute
+               -right-10 -top-10 h-36 w-36
+               rounded-full bg-[#60A5FA]/[0.06]
+               blur-2xl">
+    </div>
+
+    <!-- Main Content -->
+    <div class="relative flex h-full items-center px-6">
+
+        <!-- Reserved Icon Area -->
+        <div
+            class="flex h-[95px] w-[135px]
+                   shrink-0 items-center justify-center"
+        >
+            <!-- ICON GOES HERE -->
+        </div>
+
+        <!-- Text -->
+        <div class="flex-1 min-w-0 text-right pr-3">
+
+            <h3
+                class="text-[21px] font-extrabold
+                       tracking-[-0.3px]
+                       text-[#102A5C]"
+            >
+                نظام المخزون
+            </h3>
+
+            <p
+                class="mt-2 text-[15px] font-medium
+                       text-[#7182A5]"
+            >
+                إدارة دقيقة .. لمخزونك دائمًا
+            </p>
+
+        </div>
+
+        <!-- Arrow Circle -->
+        <div
+            class="flex h-[46px] w-[46px] shrink-0
+                   items-center justify-center
+                   rounded-full
+                   bg-[#4F46E5]/[0.09]
+                   text-[#4F46E5]
+                   transition-all duration-300
+                   group-hover:bg-[#4F46E5]
+                   group-hover:text-white
+                   group-hover:translate-x-1"
+        >
+            <svg
+                class="h-6 w-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+            >
+                <path
+                    d="M5 12h13"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                />
+                <path
+                    d="m13 6 6 6-6 6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                />
+            </svg>
+        </div>
+
+    </div>
+
+    <!-- Bottom Colored Accent -->
+    <div
+        class="absolute bottom-0 left-0 right-0
+               h-[7px]
+               bg-gradient-to-r
+               from-[#4F46E5]
+               via-[#3B82F6]
+               to-[#0EA5E9]"
+    ></div>
+
+</div>
